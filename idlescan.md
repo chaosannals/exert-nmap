@@ -19,4 +19,6 @@
 ## 命令
 
 ```bash
+# -sI <idle_server_ip> 指定空闲主机
+nmap -PN -sI <idle_server_ip> <target>
 ```
